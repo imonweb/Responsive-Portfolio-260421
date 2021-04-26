@@ -1,0 +1,40 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --clr-primary: #002ed0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.hero__section {
+  background: var(--clr-primary);
+  padding: 0 60px;
+  color: #fff;
+}
+
+.hero__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 820px;
+}
+
+.column__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.column__left h1 {
+  font-size: 90px;
+}
+
+.column__left p {
+  
+}
